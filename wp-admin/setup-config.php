@@ -217,13 +217,13 @@ switch ( $step ) {
 			<td id="dbname-desc"><?php _e( 'The name of the database you want to use with WordPress.' ); ?></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="uname"><?php _e( 'root' ); ?></label></th>
-			<td><input name="uname" id="uname" type="text" aria-describedby="uname-desc" size="25" value="<?php echo htmlspecialchars( _x( 'username', 'example username' ), ENT_QUOTES ); ?>" /></td>
+			<th scope="row"><label for="uname"><?php _e( 'Username' ); ?></label></th>
+			<td><input name="uname" id="uname" type="text" aria-describedby="uname-desc" size="25" value="<?php echo htmlspecialchars( _x( 'root', 'example username' ), ENT_QUOTES ); ?>" /></td>
 			<td id="uname-desc"><?php _e( 'Your database username.' ); ?></td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="pwd"><?php _e( '' ); ?></label></th>
-			<td><input name="pwd" id="pwd" type="text" aria-describedby="pwd-desc" size="25" value="<?php echo htmlspecialchars( _x( 'password', 'example password' ), ENT_QUOTES ); ?>" autocomplete="off" /></td>
+			<th scope="row"><label for="pwd"><?php _e( 'password' ); ?></label></th>
+			<td><input name="pwd" id="pwd" type="text" aria-describedby="pwd-desc" size="25" value="<?php echo htmlspecialchars( _x( '', 'example password' ), ENT_QUOTES ); ?>" autocomplete="off" /></td>
 			<td id="pwd-desc"><?php _e( 'Your database password.' ); ?></td>
 		</tr>
 		<tr>
